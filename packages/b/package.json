@@ -1,10 +1,13 @@
 {
-  "name": "@oven-sh/b",
+  "name": "package-b",
   "version": "0.0.1",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "echo 'package b build started running' && sleep 5 && echo 'package b build finished running'"
+  },
   "dependencies": {
-    "@oven-sh/a": "0.0.1",
+    "package-a": "0.0.1",
     "bun-types": "latest",
     "zod": "3"
   }

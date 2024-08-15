@@ -8,6 +8,7 @@
     "packages/b"
   ],
   "scripts": {
+    "build": "bun --filter '*' build",
     "clean": "rm -rf node_modules packages/a/node_modules packages/b/node_modules bun.lockb packages/a/bun.lockb packages/b/bun.lockb"
   }
 }
